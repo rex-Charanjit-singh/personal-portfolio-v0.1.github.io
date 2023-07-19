@@ -47,3 +47,12 @@ body{
         transform: translateY(-400%);
     }
 }
+
+.pos{
+    position: relative;
+    top: 90px;
+    left: 45px;
+}
+.round{
+    border-radius: 23px;
+}
