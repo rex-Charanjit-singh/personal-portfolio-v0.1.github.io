@@ -1,0 +1,49 @@
+body{
+    padding-top: 70px;
+    background-color: #ccffff;
+}
+
+.bg-1{
+    background-color: white;
+}
+
+/* code for spinning the values */
+.short-left-inner{
+    overflow: hidden;
+    font-size: 31px;
+    position: relative;
+    height: 50px;
+    /* bottom: 0px; */
+}
+.rotating-text{
+    display: block;
+    height: 105%;
+    color: #fc1c5b;
+    animation: spin_words 7s infinite;
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
