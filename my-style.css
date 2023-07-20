@@ -56,3 +56,7 @@ body{
 .round{
     border-radius: 23px;
 }
+
+.c-bg{
+    background-color: aliceblue;
+}
