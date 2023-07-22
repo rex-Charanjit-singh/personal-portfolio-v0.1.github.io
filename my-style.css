@@ -7,6 +7,13 @@ body{
     background-color: white;
 }
 
+.bg-2{
+    background-color: #ccffff;
+}
+
+.bord{
+    border-radius: 25px;
+}
 /* code for spinning the values */
 .short-left-inner{
     overflow: hidden;
