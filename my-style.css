@@ -31,6 +31,20 @@ body{
     color: #fc1c5b;
     animation: spin_words 7s infinite;
 }
+::-webkit-scrollbar{
+    z-index: 50;
+    width: 10px;
+    background: hsl(177, 100%, 84%); 
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(213, 100%, 74%);
+    border-radius: 3vh;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(213, 93%, 52%);
+    cursor: pointer;
+}
+
 @keyframes spin_words{
     10%{
         transform: translateY(-112%);
